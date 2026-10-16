@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Florence Chouinard - Game Programming Student Portfolio">
+
+    <title>Florence Chouinard | Game Programming Student</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <div class="nav-links">
+                <a href="#about" data-en="About" data-fr="À propos">
+                    About
+                </a>
+
+                <a href="#projects" data-en="Projects" data-fr="Projets">
+                    Projects
+                </a>
+
+                <a href="#skills" data-en="Skills" data-fr="Compétences">
+                    Skills
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+            </div>
+
+            <!-- Language Toggle -->
+            <div class="language-switch">
+                <span id="en-label" class="lang-label active">EN</span>
+
+                <label class="switch">
+                    <input type="checkbox" id="language-toggle" aria-label="Switch to French">
+                    <span class="slider"></span>
+                </label>
+
+                <span id="fr-label" class="lang-label">FR</span>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+        <section id="home" class="hero container">
+
+            <h1>Florence Chouinard<span>.</span></h1>
+
+            <h2 data-en="Game Programming Student" data-fr="Étudiante en programmation de jeux vidéo">
+                Game Programming Student
+            </h2>
+
+            <p class="hero-description"
+                data-en="I'm a game programming student at UQAT, specializing in character controls and cameras (CCC) and artificial intelligence (AI). Here are some of the projects I've worked on!"
+                data-fr="Je suis étudiante en programmation de jeux vidéo à l'UQAT, où je me spécialise en contrôle de personnages et de caméras (CCC) ainsi qu'en intelligence artificielle (IA). Voici quelques projets sur lesquels j'ai travaillé!">
+                I'm a game programming student at UQAT, specializing
+                in character controls and cameras (CCC) and artificial
+                intelligence (AI). Here are some of the projects
+                I've worked on!
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary" data-en="My Projects ↗" data-fr="Mes projets ↗">
+                    My Projects ↗
+                </a>
+            </div>
+
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section container">
+
+            <p class="eyebrow" data-en="ABOUT ME" data-fr="À PROPOS">
+                ABOUT ME
+            </p>
+
+            <h2 class="section-title" data-en="A little about me." data-fr="Un peu sur moi.">
+                A little about me.
+            </h2>
+
+            <p class="about-text"
+                data-en="I'm currently studying video game programming at UQAT's Montréal campus, specializing in gameplay programming. Before university, I completed a technical diploma in Computer Science at Collège Lionel-Groulx, where I developed a strong foundation in programming and software development. I also gained professional experience in web development through an internship at Tecksoft. I enjoy learning new technologies, solving problems, and working on projects that help me improve my programming skills."
+                data-fr="J'étudie présentement en programmation de jeux vidéo à l'UQAT, au campus de Montréal, avec une spécialisation en programmation jouabilité. Avant l'université, j'ai complété une technique de l'informatique au Collège Lionel-Groulx, où j'ai acquis de bonnes bases en programmation et en développement logiciel. J'ai également acquis de l'expérience professionnelle en développement Web lors d'un stage chez Tecksoft. J'aime découvrir de nouvelles technologies, résoudre des problèmes et travailler sur des projets qui me permettent de développer mes compétences en programmation.">
+                I'm currently studying video game programming at UQAT's
+                Montréal campus, specializing in gameplay programming.
+                Before university, I completed a technical diploma in
+                Computer Science at Collège Lionel-Groulx, where I
+                developed a strong foundation in programming and software
+                development. I also gained professional experience in
+                web development through an internship at Tecksoft.
+                I enjoy learning new technologies, solving problems,
+                and working on projects that help me improve my
+                programming skills.
+            </p>
+
+            <div class="cv-section">
+                <a href="assets/CV_Florence_Chouinard_FR.pdf" class="btn primary" id="cv-link" target="_blank"
+                    rel="noopener noreferrer" data-en="View my CV ↗" data-fr="Consulter mon CV ↗">
+                    View my CV ↗
+                </a>
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section container">
+
+            <p class="eyebrow" data-en="PROJECTS" data-fr="PROJETS">
+                PROJECTS
+            </p>
+
+            <h2 class="section-title" data-en="Things I've worked on." data-fr="Mes projets jusqu'à maintenant.">
+                Things I've worked on.
+            </h2>
+
+            <div class="project-grid">
+
+                <!-- L'Étranger -->
+                <article class="project-card">
+                    <div class="project-content">
+
+                        <div class="tags">
+
+                            <span data-en="College Project" data-fr="Projet collégial">
+                                College Project
+                            </span>
+
+                            <span>
+                                C#
+                            </span>
+
+                            <span>
+                                Unity
+                            </span>
+                        </div>
+
+                        <h3>L'Étranger</h3>
+
+                        <p data-en="My final college project, developed as part of a team of three. An action game featuring multiple character classes, unique combat abilities, and procedurally varied islands."
+                            data-fr="Mon projet de fin d'études collégiales, réalisé en équipe de trois. Un jeu d'action comprenant plusieurs classes de personnages, différentes capacités de combat et des îles qui varient d'une partie à l'autre.">
+                            My final college project, developed as part of
+                            a team of three. An action game featuring multiple
+                            character classes, unique combat abilities,
+                            and procedurally varied islands.
+                        </p>
+
+                        <a href="https://site-outlander.carrd.co/" target="_blank" rel="noopener noreferrer"
+                            class="project-link" data-en="View Project ↗" data-fr="Voir le projet ↗">
+                            View Project ↗
+                        </a>
+
+                    </div>
+                </article>
+
+                <!-- AI & Procedural Generation Project -->
+                <article class="project-card">
+                    <div class="project-content">
+
+                        <div class="tags">
+
+                            <span data-en="University Project" data-fr="Projet universitaire">
+                                University Project
+                            </span>
+
+                            <span>C++</span>
+
+                            <span>SFML</span>
+
+                        </div>
+
+                        <h3 data-en="AI & Procedural Generation" data-fr="IA et génération procédurale">
+                            AI & Procedural Generation
+                        </h3>
+
+                        <p data-en="A 2D project developed with C++ and SFML, featuring procedural level generation, A* pathfinding, and AI behaviors such as patrolling and chasing the player."
+                            data-fr="Un projet 2D développé en C++ avec SFML, comprenant la génération procédurale de niveaux, la recherche de chemin avec A* et des comportements d'IA comme la patrouille et la poursuite du joueur.">
+                            A 2D project developed with C++ and SFML,
+                            featuring procedural level generation,
+                            A* pathfinding, and AI behaviors such as
+                            patrolling and chasing the player.
+                        </p>
+
+                        <a href="https://github.com/achamberland11/IA-TP2" target="_blank" rel="noopener noreferrer"
+                            class="project-link" data-en="View on GitHub ↗" data-fr="Voir sur GitHub ↗">
+                            View on GitHub ↗
+                        </a>
+
+                    </div>
+                </article>
+
+                <!-- Power Plant -->
+                <article class="project-card">
+                    <div class="project-content">
+
+                        <div class="tags">
+
+                            <span data-en="University Project" data-fr="Projet universitaire">
+                                University Project
+                            </span>
+
+                            <span>C++</span>
+
+                            <span>Unreal Engine</span>
+                        </div>
+
+                        <h3>Power Plant</h3>
+
+                        <p data-en="A 3D puzzle game developed as a university team project in Unreal Engine. Explore an abandoned environment, solve light-based puzzles, and reactivate a mysterious power plant. I contributed to the programming of the game."
+                            data-fr="Un jeu de puzzles 3D développé en équipe dans le cadre d'un projet universitaire avec Unreal Engine. Explorez un environnement abandonné, résolvez des énigmes basées sur la lumière et réactivez une mystérieuse centrale électrique. J'ai participé à la programmation du jeu.">
+                            A 3D puzzle game developed as a university team
+                            project in Unreal Engine. Explore an abandoned
+                            environment, solve light-based puzzles, and
+                            reactivate a mysterious power plant.
+                        </p>
+
+                        <a href="https://the-cob.itch.io/power-plant" target="_blank" rel="noopener noreferrer"
+                            class="project-link" data-en="View Project ↗" data-fr="Voir le projet ↗">
+                            View Project ↗
+                        </a>
+
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section container">
+
+            <p class="eyebrow" data-en="SKILLS" data-fr="COMPÉTENCES">
+                SKILLS
+            </p>
+
+            <h2 class="section-title" data-en="Tools & technologies I've worked with."
+                data-fr="Outils et technologies que j'ai utilisés.">
+                Tools & technologies I've worked with.
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-group">
+                    <h3 data-en="Programming Languages" data-fr="Langages de programmation">
+                        Programming Languages
+                    </h3>
+
+                    <p>C++ / C#</p>
+                    <p>JavaScript / PHP</p>
+                    <p>SQL</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3 data-en="Game Development" data-fr="Développement de jeux">
+                        Game Development
+                    </h3>
+
+                    <p>Unreal Engine</p>
+                    <p>Unity</p>
+                    <p>SFML</p>
+                </div>
+
+                <div class="skill-group">
+                    <h3 data-en="Tools & Methods" data-fr="Outils et méthodes">
+                        Tools & Methods
+                    </h3>
+
+                    <p>GitHub</p>
+                    <p>Perforce</p>
+                    <p>Visual Studio / Rider</p>
+                    <p data-en="Agile Development" data-fr="Développement Agile">Agile Development</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact container">
+
+            <p class="eyebrow">CONTACT</p>
+
+            <p data-en="Thanks for checking out my portfolio! If you'd like to get in touch, feel free to send me a message."
+                data-fr="Merci d'avoir visité mon portfolio! Si vous souhaitez communiquer avec moi, n'hésitez pas à m'écrire.">
+                Thanks for checking out my portfolio!
+                If you'd like to get in touch, feel free
+                to send me a message.
+            </p>
+
+            <div class="contact-links">
+
+                <!-- Replace with your email -->
+                <a href="mailto:chouinardflorence@icloud.com" class="btn primary" data-en="Send me an email ↗"
+                    data-fr="M'envoyer un courriel ↗">
+                    Send me an email ↗
+                </a>
+
+                <!-- Replace with your GitHub URL -->
+                <a href="https://github.com/Florence1234567" target="_blank" rel="noopener noreferrer"
+                    class="btn secondary">
+                    GitHub ↗
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Florence Chouinard</p>
+    </footer>
+
+</body>
+
+</html>
